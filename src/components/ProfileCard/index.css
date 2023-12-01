@@ -1,0 +1,371 @@
+.profile-card-container {
+  background-color: #fafafa;
+}
+
+.profile-container {
+  background-color: #fafafa;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  .profile-container {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.profile-details-and-profile-pic-container {
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .profile-details-and-profile-pic-container {
+    width: 100%;
+  }
+}
+
+.profile-image {
+  height: 96px;
+  width: 96px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 576px) {
+  .profile-image {
+    height: 180px;
+    width: 180px;
+    left: 0px;
+    top: 0px;
+    border-radius: 90px;
+  }
+}
+
+.user-name-styling-small-screens {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #262626;
+}
+
+@media screen and (min-width: 576px) {
+  .user-name-styling-small-screens {
+    display: none;
+  }
+}
+
+.user-name-styling-medium-screens {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .user-name-styling-medium-screens {
+    display: none;
+  }
+}
+
+.profile-name-id-and-follow-details-container {
+  margin-left: 20px;
+}
+
+.user-following-details-counter {
+  display: flex;
+}
+
+.counts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .counts-container {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+}
+
+.counts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .counts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262626;
+  }
+}
+
+.count-type {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #262626;
+}
+
+@media screen and (min-width: 576px) {
+  .count-type {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #262626;
+    margin-left: 4px;
+  }
+}
+
+.user-id-styling {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.user-id-and-bio-small-screens-container {
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .user-id-and-bio-small-screens-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .user-id-display-medium-screens {
+    display: none;
+  }
+}
+
+.user-bio-small-screens {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+}
+
+@media screen and (min-width: 576px) {
+  .user-bio-small-screens {
+    display: none;
+  }
+}
+
+.user-bio-medium-screens {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .user-bio-medium-screens {
+    display: none;
+  }
+}
+
+.story-list-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.story-image-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c7c7cc;
+  width: 64px;
+  height: 64px;
+  border-radius: 40px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .story-image-container {
+    width: 86px;
+    height: 86px;
+  }
+}
+
+.story-image-styling {
+  width: 56px;
+  height: 56px;
+  border-radius: 40px;
+  margin: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .story-image-styling {
+    width: 78px;
+    height: 78px;
+    border-radius: 50px;
+  }
+}
+
+.posts-icon-and-title-container {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .posts-icon-and-title-container {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.post-icon {
+  width: 14.06px;
+  height: 14.06px;
+  color: #262626;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .post-icon {
+    height: 16.875px;
+    width: 16.875px;
+  }
+}
+
+.posts-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #262626;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .posts-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.posts-list-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  flex-grow: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.post-image-styling {
+  width: 118px;
+  height: 118px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .post-image-styling {
+    width: 330px;
+    height: 330px;
+  }
+}
+.no-posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+.camera-icon-container {
+  height: 48px;
+  width: 48px;
+  border: 2px solid #262626;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@media screen and (min-width: 576px) {
+  .camera-icon-container {
+    width: 86px;
+    height: 86px;
+    border-radius: 43px;
+  }
+}
+
+.camera-icon-style {
+  height: 26.790693283081055px;
+  width: 29.023250579833984px;
+  color: #262626;
+}
+
+@media screen and (min-width: 576px) {
+  .camera-icon-style {
+    height: 45px;
+    width: 48px;
+  }
+}
+
+.no-posts-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #262626;
+}
+
+@media screen and (min-width: 576px) {
+  .no-posts-description {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}

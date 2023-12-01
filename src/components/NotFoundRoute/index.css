@@ -1,0 +1,94 @@
+.not-found-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.not-found-image {
+  height: 173px;
+  width: 157px;
+}
+
+@media screen and (min-width: 576px) {
+  .not-found-image {
+    height: 297px;
+    width: 269px;
+  }
+}
+
+.not-found-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .not-found-title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+.not-found-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #989898;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 576px) {
+  .not-found-description {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.home-page-link {
+  text-decoration: none;
+}
+
+.home-page-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 114px;
+  border-radius: 8px;
+  padding: 8px 24px 8px 24px;
+  background-color: #4094ef;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  border: none;
+}
+
+@media screen and (min-width: 576px) {
+  .home-page-button {
+    height: 48px;
+    width: 141px;
+    border-radius: 12px;
+    padding: 12px, 32px, 12px, 32px;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 12px;
+  }
+}

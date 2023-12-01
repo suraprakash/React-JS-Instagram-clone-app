@@ -1,0 +1,71 @@
+.loader-container {
+  background-color: #ffffff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-container {
+  background-color: #fafafa;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-image {
+  height: 126.99996948242188px;
+  width: 259.99932861328125px;
+}
+
+@media screen and (min-width: 576px) {
+  .failure-image {
+    height: 273.9997253417969px;
+    width: 560.0001831054688px;
+  }
+}
+
+.failure-view-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+@media screen and (min-width: 576px) {
+  .failure-view-description {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+.try-again-button {
+  background-color: #4094ef;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  height: 32px;
+  width: 102px;
+  padding: 8px, 24px, 8px, 24px;
+}
+
+@media screen and (min-width: 576px) {
+  .try-again-button {
+    height: 48px;
+    width: 127px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 12px;
+    padding: 12px, 32px, 12px, 32px;
+  }
+}

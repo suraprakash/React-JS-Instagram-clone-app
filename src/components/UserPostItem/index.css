@@ -1,0 +1,481 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0px; */
+  padding: 0px;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-bottom: 8px;
+  /* border: 1px solid #dbdbdb; */
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-section {
+    width: 1040px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px 4px 0px 0px;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 0;
+  }
+}
+
+.image-container {
+  background: linear-gradient(
+    314.35deg,
+    #e20337 6.03%,
+    #c60188 40.88%,
+    #7700c3 73.23%
+  );
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .image-container {
+    background: linear-gradient(
+      314.35deg,
+      #e20337 6.03%,
+      #c60188 40.88%,
+      #7700c3 73.23%
+    );
+    border-radius: 50%;
+    max-height: 50px;
+    max-width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+  }
+}
+
+.profile-pic {
+  max-height: 30px;
+  min-height: 30px;
+  border: 2px solid #ffffff;
+  /* border-color: linear-gradient(
+    314.35deg,
+    #e20337 6.03%,
+    #c60188 40.88%,
+    #7700c3 73.23%
+  ); */
+  border-radius: 50%;
+}
+
+.profile-post {
+  /* width: 360px;
+  height: 375px; */
+  /* width: 360px; */
+  height: 375px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-post {
+    width: 1040px;
+    height: 614px;
+  }
+}
+
+.profile-user-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 4px;
+
+  letter-spacing: -0.1px;
+
+  color: #262626;
+  margin-left: 6px;
+}
+
+.user-post-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-right: 19px;
+  height: 23px;
+}
+
+.user-post-list-item {
+  list-style-type: none;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+}
+
+.profile-link {
+  text-decoration: none;
+}
+
+.post-detail-and-stats-container {
+  padding: 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .post-detail-and-stats-container {
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 0px 0px 4px 4px;
+  }
+}
+
+.likes {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 12px;
+  letter-spacing: -0.07px;
+  color: #262626;
+}
+
+.caption {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: -0.07px;
+  color: #262626;
+}
+
+.commented-user {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.1px;
+
+  color: #262626;
+}
+
+.user-comment {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: -0.1px;
+
+  color: #262626;
+}
+
+.created-date {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height, or 160% */
+
+  letter-spacing: 0.05px;
+
+  color: #989898;
+}
+
+@media screen and (min-width: 768px) {
+  .likes {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .caption {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .commented-user {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .user-comment {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .created-date {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .user-post-list-item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+.post-item-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.profile-pic-and-name-container {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .profile-pic-and-name-container {
+    background-color: #ffffff;
+    border: 1px #dbdbdb solid;
+    border-radius: 4px 4px 0px 0px;
+    padding-left: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.profile-image-container {
+  border: 1.03px solid;
+
+  border-image: linear-gradient(
+    314.35deg,
+    #e20337 6.03%,
+    #c60188 40.88%,
+    #7700c3 73.23%
+  );
+
+  height: 32px;
+  width: 32px;
+  left: 24px;
+  top: 14px;
+
+  border-radius: 15px;
+}
+
+.profile-logo-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .profile-logo-image {
+    width: 28px;
+    height: 28px;
+    border-radius: 15px;
+  }
+}
+
+.profile-link {
+  text-decoration: none;
+}
+
+.post-username-styling {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+  margin-left: 8px;
+  align-self: center;
+}
+
+@media screen and (min-width: 576px) {
+  .likes-icons-caption-and-comments-container {
+    border-radius: 0px 0px 4px 4px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+  }
+}
+
+.like-comment-and-share-icon-container {
+  display: flex;
+
+  width: 97%;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .like-comment-and-share-icon-container {
+    width: 99%;
+  }
+}
+
+.like-buttons {
+  border: none;
+  background-color: transparent;
+}
+
+.heart-icon {
+  height: 17.083982467651367px;
+  width: 19.403348922729492px;
+  color: #262626;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 576px) {
+  .heart-icon {
+    height: 16.873313903808594px;
+    width: 19.832109451293945px;
+  }
+}
+
+.like-icon {
+  height: 19.083982467651367px;
+  width: 19.403348922729492px;
+}
+
+@media screen and (min-width: 576px) {
+  .like-icon {
+    height: 20px;
+    width: 23.241853713989258px;
+  }
+}
+
+.comment-icon {
+  height: 19px;
+  width: 23px;
+  color: #475569;
+}
+
+@media screen and (min-width: 576px) {
+  .comment-icon {
+    height: 19.386981964111328px;
+    width: 22px;
+  }
+}
+
+.share-icon {
+  height: 21px;
+  width: 21px;
+  color: #475569;
+}
+
+.likes-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.07px;
+  color: #262626;
+
+  width: 95%;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .likes-count {
+    font-size: 14px;
+    line-height: 18px;
+    width: 98%;
+  }
+}
+
+.post-image-style {
+  width: 100%;
+}
+
+.caption-style {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #262626;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  height: 0px;
+}
+
+@media screen and (min-width: 576px) {
+  .caption-style {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.comments-containers {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+}
+.comment-item {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 93%;
+  height: 30px;
+  margin-top: 6px;
+  display: flex;
+}
+
+.username-in-comment {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 576px) {
+  .username-in-comment {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
+
+.comment-styling {
+  font-weight: normal;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 576px) {
+  .comment-styling {
+    font-size: 16px;
+  }
+}
+
+.created-at-styling {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  color: #989898;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .created-at-styling {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

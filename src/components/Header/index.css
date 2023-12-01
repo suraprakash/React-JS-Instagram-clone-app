@@ -1,0 +1,202 @@
+.navbar-container {
+  display: flex;
+  background-color: #fafafa;
+  padding: 20px;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+}
+
+.logo-and-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-instashare-logo {
+  width: 50px;
+  height: 30px;
+}
+
+.header-instashare-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #262626;
+  margin-left: 10px;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 576px) {
+  .menu-button {
+    display: none;
+  }
+}
+.menu-icon {
+  font-size: 30px;
+}
+
+.header-options-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+  .header-options-container {
+    display: none;
+  }
+}
+
+.smaller-devices-header-options-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .smaller-devices-header-options-container {
+    display: none;
+  }
+}
+
+.link-style {
+  text-decoration: none;
+  align-self: center;
+}
+.options-style {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: auto;
+  margin-right: 15px;
+  color: #262626;
+}
+
+@media screen and (min-width: 576px) {
+  .button-list-item {
+    margin-left: auto;
+  }
+}
+.logout-button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 16px;
+  padding: 8px 24px;
+  background: #4094ef;
+  border-radius: 4px;
+  border: none;
+}
+
+.close-button {
+  background-color: transparent;
+  align-self: center;
+  border: none;
+}
+
+.close-icon {
+  font-size: 20px;
+}
+
+.search-input-and-icon-container {
+  width: 214px;
+  height: 28px;
+  display: flex;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  align-self: center;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .no-display-small-screens {
+    display: none;
+  }
+}
+
+.search-input-and-icon-container-small-screens {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  width: 89%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.search-button {
+  width: 34px;
+  height: 26px;
+  color: #989898;
+  background-color: #dbdbdb;
+  border-radius: 0px 2px 2px 0px;
+  background-color: transparent;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+}
+
+.search-input-and-options-list-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.search-input-and-icon-container-small-screens {
+  display: flex;
+  width: 70%;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+}
+
+@media screen and (min-width: 576px) {
+  .search-input-and-icon-container-small-screens {
+    display: none;
+  }
+}
+
+.search-btn-smaller-devices {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  align-self: center;
+  line-height: 18px;
+  margin-bottom: 3px;
+  margin-right: 20px;
+  color: #262626;
+  border: none;
+  background-color: transparent;
+}
